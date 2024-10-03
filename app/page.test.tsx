@@ -9,5 +9,4 @@ it("App Router: Works with Server Components", () => {
   render(<Page />);
   expect(screen.getByRole("heading")).toHaveTextContent("Hello, my name is Mahomed CISSOKHO.");
 
-
 });
